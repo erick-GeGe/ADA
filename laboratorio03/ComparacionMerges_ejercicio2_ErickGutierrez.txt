@@ -1,0 +1,10 @@
+Cosas postivas
+-------------- 
+    - Solo se pide menos veces reservar memoria para los arreglos, en comparacion con el normal.
+    - Realiza menos comparaciones, ya que, se trata solo de un arreglo 
+
+Cosas negativas
+---------------
+    - Por lo que entendi, el tamanio del arreglo a reservar debe ser r o incluso mas grande, por lo tanto
+      estaria reservando memoria inncesaria. Ejemplo: para intercalar el segmento de 8 a 9 se crea un arreglo
+      de tamanio 9 y solo se utilizan las posisciones 8 y 9.
